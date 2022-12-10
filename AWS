@@ -1,0 +1,18 @@
+
+CloudFront
+----------------
+Use an Amazon CloudFront distribution to serve a static website
+
+This getting started tutorial shows you how to perform the following tasks:
+
+  1. Register a domain name, such as example.com.
+
+  2. Create a certificate for your domain.
+
+  3. Create two Amazon S3 buckets and configure one to host a website and the other one to redirect to the subdomain.
+
+  4. Create a sample website and save the file in your S3 bucket.
+
+  5. Create CloudFront distributions for both S3 buckets.
+
+  6. Configure Amazon Route 53 to route traffic to the CloudFront distributions.
